@@ -5,6 +5,13 @@ let num = '123'  // string
 console.log(Number(num));
 console.log(+num);
 
+// parsInt() va parseFloat()
+
+let num = '100.9px'
+console.log(paseInt(num)); // Butun  sonlar uchun
+console.log(parseFloat(num)); // Kasr sonlar uchun
+
+
 
 let id = Symbol('id')
 // console.log(Number(true)); // 1
